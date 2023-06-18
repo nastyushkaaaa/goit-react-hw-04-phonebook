@@ -115,6 +115,6 @@ export function Form({ onSubmit }) {
   );
 }
 
-Event.propTypes = {
+Form.propTypes = {
   onSubmit: PropTypes.func.isRequired,
 };

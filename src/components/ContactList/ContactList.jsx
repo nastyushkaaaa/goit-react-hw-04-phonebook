@@ -68,7 +68,7 @@ export const ContactList = ({ list, onDeleteContact }) => {
   );
 };
 
-Event.propTypes = {
+ContactList.propTypes = {
   list: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.number.isRequired,

@@ -26,7 +26,7 @@ export const Filter = ({ value, onChange }) => (
   </label>
 );
 
-Event.propTypes = {
+Filter.propTypes = {
   value: PropTypes.string.isRequired,
   onChange: PropTypes.func.isRequired,
 };
